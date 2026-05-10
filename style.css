@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 180px;
+  height: 100vh;
+  background: #212529;
+}
+
+.sidebar-btn {
+  font-size: 0.85rem;
+  padding: 5px;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.sidebar-btn:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
+
+.content {
+  background: #f4f6f9;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+tr {
+  transition: 0.2s;
+}
+
+tr:hover {
+  transform: scale(1.01);
+}
+
+#fechaHora {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
